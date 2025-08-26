@@ -36,7 +36,7 @@ def show_KG(data):
         components.html(html_data, height=800)
 
 def chatbox():
-    dsk_key = st.secrets["deepseek_key"]
+    dsk_key = "sk-d8ed661d7cbc4e86ba457abc3e794b90"
     cue = """
     - Answer questions directly or engage in casual conversation
     - Keep responses concise and helpful
@@ -199,3 +199,4 @@ def chatbox():
                 st.session_state.responsed = True
                 st.rerun()
                 
+

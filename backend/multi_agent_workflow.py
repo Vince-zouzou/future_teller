@@ -11,7 +11,7 @@ import re
 import streamlit as st
 
 # Tavily search tool configuration
-TAVILY_API_KEY = st.secrets["tavily_key"]
+TAVILY_API_KEY = "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"
 TAVILY_API_URL = "https://api.tavily.com/search"
 
 class TavilySearchTool(BaseTool):
